@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestAPICoverPhotosSuite]">
+  <test thread-count="5" name="YourStoreWesite(failed)">
+    <classes>
+      <class name="testClasses.LoginYesyWithTestNG">
+        <methods>
+          <include name="verifyWhetherLogoutIsSuccessful"/>
+          <include name="launchBrowser"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- testClasses.LoginYesyWithTestNG -->
+    </classes>
+  </test> <!-- YourStoreWesite(failed) -->
+</suite> <!-- Failed suite [RestAPICoverPhotosSuite] -->
